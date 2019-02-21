@@ -1,0 +1,72 @@
+* {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+}
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+ html {
+     font-size: 62.5%;
+}
+
+ body {
+     background:  #00539c;
+     color: #fafafa;
+     font-size: 6rem;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     min-height: 100vh;
+     font-family: 'Montserrat', sans-serif;
+
+}
+
+.container {
+     border: 2px solid white;
+     border-radius: 15px;
+     padding: 10rem;
+}
+
+
+ span {
+     border-bottom: 2px solid white;
+     display: inline-block;
+     font-size: 4rem;
+     height: 4rem;
+     line-height: 2.4rem;
+     margin: 0 .5rem;
+     text-align: center;
+     text-transform: uppercase;
+     width: 4rem;
+}
+
+ p {
+     font-weight: 300;
+     margin-bottom: .8rem;
+}
+
+ .puzzle {
+     display: flex;
+     margin-bottom: 4.8rem;
+}
+
+ .button {
+     background: #00539c;
+     border: 1px solid white;
+     border-radius: 15px;
+     cursor: pointer;
+     color: white;
+     font-size: 2rem;
+     font-weight: 300;
+     padding: 1.5rem;
+     transition: background .3s ease, color .3s ease;
+     outline: none;
+ }
+
+
+ .button:hover {
+     background: white;
+     color: #00539c;
+     border: 1px solid #00539c;
+
+}
